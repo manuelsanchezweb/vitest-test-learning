@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
@@ -12,8 +13,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "happy-dom": "^9.19.2",
     "standard": "^17.0.0",
     "vitest": "0.31.1"
+  },
+  "dependencies": {
+    "mathjs": "^11.8.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
